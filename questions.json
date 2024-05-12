@@ -1,0 +1,29 @@
+[
+    {
+        "question": "¿Cuál es el videojuego más vendido de todos los tiempos?",
+        "options": [
+            {"text": "Minecraft", "correct": true},
+            {"text": "Tetris", "correct": false},
+            {"text": "Grand Theft Auto V", "correct": false},
+            {"text": "Super Mario Bros.", "correct": false}
+        ]
+    },
+    {
+        "question": "¿Quién es el creador del videojuego 'The Legend of Zelda'?",
+        "options": [
+            {"text": "Shigeru Miyamoto", "correct": true},
+            {"text": "Hideo Kojima", "correct": false},
+            {"text": "Satoru Iwata", "correct": false},
+            {"text": "Gabe Newell", "correct": false}
+        ]
+    },
+    {
+        "question": "¿En qué año se lanzó el videojuego 'World of Warcraft'?",
+        "options": [
+            {"text": "2004", "correct": true},
+            {"text": "2007", "correct": false},
+            {"text": "2001", "correct": false},
+            {"text": "2010", "correct": false}
+        ]
+    }
+]

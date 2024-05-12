@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Concurso de Preguntas de Videojuegos</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
+        <div id="roulette-container">
+            <div id="roulette">
+                <div class="number">1</div>
+                <div class="number">2</div>
+                <div class="number">3</div>
+                <div class="number">4</div>
+            </div>
+            <button id="spin-btn">Girar Ruleta</button>
+        </div>
+        
         <h1>Concurso de Preguntas de Videojuegos</h1>
         <div id="question-container">
             <p id="question"></p>
@@ -16,7 +26,6 @@
         <button id="next-btn">Siguiente Pregunta</button>
         <p id="result"></p>
     </div>
-    <script src="questions.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
